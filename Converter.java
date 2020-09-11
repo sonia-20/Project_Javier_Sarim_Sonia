@@ -9,13 +9,13 @@ public class Converter {
 	
 	private double celsiusToFahrenheit(double C) {
 		// TODO: The third student will implement this method
-		 double F = C * (9f / 5) + 32;
-		return F
+		 double F = C * (9 / 5) + 32;
+		return F;
 	}
 	
 	private double fahrenheitToCelsius(double F) {
-		// TODO: The second student will implement this method 
-		return 0;
+		double C = (F - 32.0) * (5.0/9.0);
+		return C;
 	}
 	public static void main(String[] args) {
 		//TODO:The first student will implement this method.
